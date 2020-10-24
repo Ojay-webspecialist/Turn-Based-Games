@@ -1,0 +1,19 @@
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 110px 110px 110px 110px 110px 110px 110px 110px 110px 110px;
+    grid-template-rows: 110px 110px 110px 110px 110px 110px 110px 110px 110px 110px;
+    width: 1100px;
+    height: 1100px;
+    position: relative;
+}
+.grid-item{
+    background-color: rgb(241, 177, 241);
+    outline: 1px solid rgba(0, 0, 0, 0.1);
+}
